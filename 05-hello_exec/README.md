@@ -31,3 +31,8 @@ Trouver le nombre de personnes de plus de 30 ans.
 ````
 PS : merci d'utiliser ton cerveau et non ChatGPT.
 ````
+
+docker exec -it elated_chatelet  sh -c "psql -d postgres -U postgres"
+
+SELECT * FROM personnes
+WHERE age > 30;
