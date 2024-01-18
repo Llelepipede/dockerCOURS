@@ -4,3 +4,6 @@
 
 
 docker push llelepipedepyro/coursdocker:essaie2
+
+
+docker push llelepipedepyro/coursdocker:essaie2
